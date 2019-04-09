@@ -45,7 +45,7 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(664, 286);
+            this.button1.Location = new System.Drawing.Point(467, 272);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 61);
             this.button1.TabIndex = 0;
@@ -60,7 +60,7 @@
             this.txtbString1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbString1.Location = new System.Drawing.Point(13, 112);
             this.txtbString1.Name = "txtbString1";
-            this.txtbString1.Size = new System.Drawing.Size(800, 41);
+            this.txtbString1.Size = new System.Drawing.Size(603, 41);
             this.txtbString1.TabIndex = 1;
             // 
             // label1
@@ -82,7 +82,7 @@
             this.txtbString2.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbString2.Location = new System.Drawing.Point(13, 193);
             this.txtbString2.Name = "txtbString2";
-            this.txtbString2.Size = new System.Drawing.Size(800, 41);
+            this.txtbString2.Size = new System.Drawing.Size(603, 41);
             this.txtbString2.TabIndex = 3;
             // 
             // label2
@@ -115,7 +115,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 251);
+            this.label4.Location = new System.Drawing.Point(6, 237);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(145, 33);
             this.label4.TabIndex = 6;
@@ -127,7 +127,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 300);
+            this.label5.Location = new System.Drawing.Point(6, 286);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(384, 33);
             this.label5.TabIndex = 7;
@@ -139,7 +139,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDiff.AutoSize = true;
             this.lblDiff.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiff.Location = new System.Drawing.Point(157, 251);
+            this.lblDiff.Location = new System.Drawing.Point(157, 237);
             this.lblDiff.Name = "lblDiff";
             this.lblDiff.Size = new System.Drawing.Size(101, 33);
             this.lblDiff.TabIndex = 8;
@@ -151,7 +151,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDiffFault.AutoSize = true;
             this.lblDiffFault.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiffFault.Location = new System.Drawing.Point(396, 300);
+            this.lblDiffFault.Location = new System.Drawing.Point(396, 286);
             this.lblDiffFault.Name = "lblDiffFault";
             this.lblDiffFault.Size = new System.Drawing.Size(71, 33);
             this.lblDiffFault.TabIndex = 9;
@@ -161,7 +161,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 357);
+            this.ClientSize = new System.Drawing.Size(627, 343);
             this.Controls.Add(this.lblDiffFault);
             this.Controls.Add(this.lblDiff);
             this.Controls.Add(this.label5);
@@ -173,6 +173,7 @@
             this.Controls.Add(this.txtbString1);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(643, 382);
             this.Name = "Form1";
             this.Text = "Compare Strings";
             this.ResumeLayout(false);
