@@ -43,7 +43,17 @@ namespace WindowsFormsApp1
                         list.Add(i);
                 }
 
-                lblDiff.Text = list.Count.ToString();
+                if(String2.Length > String1.Length)
+                {
+                    var str2longerstr2 = String2.Length - String1.Length;
+                    lblDiff.Text = (list.Count + str2longerstr2).ToString();
+                }
+                else
+                {
+                    lblDiff.Text = list.Count.ToString();
+                }
+
+                
 
                 //Checks if String2 data is longer then String1
                 //This is incase String2 have one or more characters somewhere in the string. 
